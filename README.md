@@ -30,6 +30,6 @@ Falcon7 Institute Management System (FIMS) is a comprehensive management system 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/asoftcompanymasanja/FIMS.git
+   git clone https://github.com/Asoftcompanymasanja/FIMS.git
 2.**contact me for more information **
 "a12btwangaratz88@gmail.com"
