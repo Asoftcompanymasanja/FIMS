@@ -1,3 +1,77 @@
+/*
+ * Falcon7 Institute Management System (FIMS)
+ * 
+ * This program implements a comprehensive management system for Falcon7 Institute, designed to handle various administrative tasks efficiently.
+ * The system allows administrators, faculty, and students to manage user accounts, course information, lectures, attendance, and more.
+ * 
+ * Features:
+ *  - User Management: Create, update, and delete user accounts with role-based access control.
+ *  - Student Information Management: Manage student information, including personal details and enrollment status.
+ *  - Course Management: Create, update, and delete courses, assign faculty, and manage course schedules.
+ *  - Lecture Management: Schedule lectures, mark attendance, and generate reports.
+ *  - Integration: Integrate with external systems for automatic updates and access to resources.
+ *  - Security and Access Control: Implement robust security measures to protect sensitive data.
+ *  - Reporting and Analytics: Generate reports and provide insights into student performance and system usage.
+ *
+ * Requirements Documentation:
+ *  - User Management:
+ *    - Requirement 1.1: Allow administrators to create, update, and delete user accounts.
+ *    - Requirement 1.2: Categorize users into roles (administrator, faculty, student).
+ *    - Requirement 1.3: Define access levels for each role.
+ *  - Student Information Management:
+ *    - Requirement 2.1: Allow administrators to manage student information.
+ *    - Requirement 2.2: Allow students to view their own information.
+ *  - Course Management:
+ *    - Requirement 3.1: Allow administrators to manage courses.
+ *    - Requirement 3.2: Allow faculty to manage courses they are assigned to.
+ *  - Lecture Management:
+ *    - Requirement 4.1: Enable faculty to schedule lectures for assigned courses.
+ *    - Requirement 4.2: Enable faculty to mark student attendance for lectures.
+ *  - Integration:
+ *    - Requirement 5.1: Integrate with the results system for automatic grade updates.
+ *    - Requirement 5.2: Integrate with the library management system for access to course materials.
+ *  - Security and Access Control:
+ *    - Requirement 6.1: Implement role-based access control.
+ *    - Requirement 6.2: Ensure data encryption for user information.
+ *  - Reporting and Analytics:
+ *    - Requirement 7.1: Generate reports on student enrollment, course attendance, and academic performance.
+ *    - Requirement 7.2: Provide analytics tools for insights into student performance.
+ *  - Scalability and Performance:
+ *    - Requirement 8.1: Design the system for scalability and performance.
+ *    - Requirement 8.2: Optimize database queries and system processes for fast response times.
+ *  - Usability and User Experience:
+ *    - Requirement 9.1: Design an intuitive and user-friendly interface.
+ *    - Requirement 9.2: Support multiple devices and screen sizes.
+ *
+
+* Recommended Technologies and Tools:
+ *  - Programming Language: C++
+ *  - User Interface (UI):
+ *    - Desktop Application: Qt Framework
+ *  - Application Layer:
+ *    - Backend Framework: C++ REST SDK (Casablanca)
+ *  - Database:
+ *    - Database Management System (DBMS): mariadb
+ *  - Integration:
+ *    - RESTful APIs: Boost.Beast
+ *  - Security:
+ *    - Data Encryption: OpenSSL
+ *  - Development Environment:
+ *    - Integrated Development Environment (IDE): Visual Studio or CLion
+ *  - Version Control:
+ *    - Version Control System (VCS): Git
+ *  - Documentation:
+ *    - Documentation Tool: Doxygen
+ * 
+ * Author: ABEL C MASANJA
+ * Date: 03/04/2024
+ * Version: 1.0
+ * 
+ * Note: This is the initial version of the Falcon7 Institute Management System (FIMS) program.
+ * Further enhancements and optimizations may be made in subsequent versions.
+ * Suggestions and contributions are welcome.
+ */
+
 #include <iostream>
 #include <vector>
 #include <string>
